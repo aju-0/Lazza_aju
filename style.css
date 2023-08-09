@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+*{
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+	
+}
+/* .floating{
+	position: fixed;
+	z-index: 2; 
+}*/
+	
+
+.main-header a{
+	text-decoration: none;
+	
+}
+.main-header li{
+	list-style-type: none;
+	
+}
+.main-header
+{		
+width: 100%;
+height: 95px;
+background-color: black;
+position: fixed; 
+top: 0; 
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 3;
+	
+}
+.logo{
+	
+	margin-left: 60px;			 
+}
+
+.lazza-logo{
+	
+	height: 66px;	
+}
+.main-header .nav-list{
+	display: flex;
+	flex-direction:reverse;
+	font-size: 14px;
+	margin-left: 1000px		
+}
+.main-header li{
+	padding: 10px;	
+}
+.navigation-icon{	
+    padding-right: 60px;	
+	display: flex;
+	justify-content: space-between;
+	
+}
+.sub_icons{
+	
+	height:22px;
+	padding: 3px;
+}
+
+.navigation-object a{
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+
+
+
+
+/* new slider*/
+	
+	#slider {
+	overflow: hidden;
+	width: 100%;
+		
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+	
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+/* main product body */
+.products_body{
+	width: 100%;
+}
+
+.products_body h1{
+	padding: 60px;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: lighter;
+            }
+
+/*grid css*/
+
+.container{
+    max-width: 100rem;
+	text-align: center;
+	margin-left: 365px;
+	
+	
+
+}
+.card-title{
+	
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;;
+	text-transform:uppercase; 
+	margin-bottom: 50px;
+	font-stretch: -10%;
+	color: dimgrey;
+	
+	
+	
+}
+
+
+.card-image{
+	
+	height: 250px;
+	margin-bottom: 40px;
+	
+	
+}
+.product_grid{
+	
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	
+	
+	
+}
+.footer-image{
+	
+	width: 100%;
+	background-color: #be9509;
+	padding: 20px
+	
+	
+}
+.footer-img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 60%
+  
+}
+
+/* footer css*/
+
+footer li{
+	padding: 7px;
+}
+footer a{
+	text-decoration: none;
+	color: gold;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.footer-stamp-image{
+	height: 130px;}
+.footer-stamp-image-2{
+	height: 130px;
+
+}
+
+.main-footer{
+	background-color: black;
+	padding: 20px;
+	width: 100%;
+	height: 300px;
+}
+.inner-footer{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 350px;
+	margin-left: 350px;
+}
+.footer-contact-icon{
+	display: flex;	
+	justify-content: space-between;
+	margin-right: 17px;
+}
+.footer-contact-icon img{
+height: 30px;
+
+
+} 
+.footer-heading{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+hr{
+	width: 100%;
+	margin-top: 50px;
+}
+.last-text{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.watsapp{
+	height: 80px;
+	float: right;
+	bottom: 0px;
+
+	
+}
+/* .floating{
+bottom: 0px;
+} */
